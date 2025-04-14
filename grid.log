@@ -1,0 +1,30 @@
+GLPSOL: GLPK LP/MIP Solver, v4.65
+Parameter(s) specified in the command line:
+ --log grid.log --write C:\Users\paras\AppData\Local\Temp\tmpgj11_g4e.glpk.raw
+ --wglp C:\Users\paras\AppData\Local\Temp\tmpco590ef1.glpk.glp --cpxlp C:\Users\paras\AppData\Local\Temp\tmpm200tekp.pyomo.lp
+Reading problem data from 'C:\Users\paras\AppData\Local\Temp\tmpm200tekp.pyomo.lp'...
+43800 rows, 43801 columns, 122638 non-zeros
+315369 lines were read
+Writing problem data to 'C:\Users\paras\AppData\Local\Temp\tmpco590ef1.glpk.glp'...
+262803 lines were written
+GLPK Simplex Optimizer, v4.65
+43800 rows, 43801 columns, 122638 non-zeros
+Preprocessing...
+43800 rows, 43801 columns, 122638 non-zeros
+Scaling...
+ A: min|aij| =  2.500e-01  max|aij| =  1.053e+00  ratio =  4.211e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 43800
+      0: obj =   0.000000000e+00 inf =   8.367e+07 (8704)
+   8704: obj =   1.452392499e+07 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [8903]...
+* 16201: obj =   1.338206544e+07 inf =   0.000e+00 (3287) 49
+* 23460: obj =   1.251293944e+07 inf =   1.599e-14 (539) 49
+Removing LP perturbation [24133]...
+* 24133: obj =   1.249269546e+07 inf =   0.000e+00 (0) 5
+OPTIMAL LP SOLUTION FOUND
+Time used:   14.1 secs
+Memory used: 60.3 Mb (63205321 bytes)
+Writing basic solution to 'C:\Users\paras\AppData\Local\Temp\tmpgj11_g4e.glpk.raw'...
+87610 lines were written
